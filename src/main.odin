@@ -1,7 +1,8 @@
 package main
 
 import "core:fmt"
+import "projectA"
 
 main :: proc() {
-    fmt.println("Hi, mom!");
+    projectA.test();
 }
